@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2017/3/28
+# @Company :
+# @Author  : Mo Wenlong
+# @Email   : invincible0918@126.com
+# @File    : baseGUI.py
+
+
+from PySide import QtCore, QtGui, QtUiTools
+
+
+def loadUiWidget(uiFileName, parent=None):
+    """Properly Loads and returns UI files - by BarryPye on stackOverflow"""
+    loader = QtUiTools.QUiLoader()
+    uiFile = QtCore.QFile(uiFileName)
+    uiFile.open(QtCore.QFile.ReadOnly)
+    ui = loader.load(uiFile, parent)
+    uiFile.close()
+    return ui
+
+
+class BaseGUI(QtGui.QMainWindow):
+    """A bare minimum UI class - showing a .ui file inside Maya 2016"""
+    def __init__(self):
+        super(BaseGUI, self).__init__()
+        self._ui = loadUiWidget(self._uiFile)
+
+    def lateInit(self):
+        self._initGUI()
+        self._bindMethod()
+
+    def show(self):
+        self._ui.show()
+
+    def close(self):
+        self._ui.close()
+
+    def quitHandler(self):
+        pass
+
+    @property
+    def _uiFile(self):
+        raise NotImplementedError
+
+    def _initGUI(self):
+        """
+        After init gui
+        :return:
+        """
+        pass
+
+    def _bindMethod(self):
+        """
+        Bind method to control
+        :return:
+        """
+        pass
+
+    def _loadUiWidget(self, uiFile, parent):
+        """
+        :param uiFile:
+        :param parent:
+        :return:
+        """
+        return loadUiWidget(uiFile, parent)
+
+    def _registerCustomWidget(self, CustomWidget):
+        loader = QtUiTools.QUiLoader()
+        loader.registerCustomWidget(CustomWidget)
+
