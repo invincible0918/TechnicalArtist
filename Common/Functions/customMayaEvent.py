@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 6/18/2019 11:52 AM
-# @Author  : wen-long.mo@ubisoft.com
+# @Author  : invincible0918@126.com
 # @Site    : 
 # @File    : customMayaEvent.py
 # @Software: PyCharm

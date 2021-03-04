@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2018/04/16
-# @Company : UBISOFT SHANGHAI
+# @Company : INVINCIBLE STUDIO
 # @Author  : Mo Wenlong
-# @Email   : wen-long.mo@ubisoft.com
+# @Email   : invincible0918@126.com
 # @File    : release.py
 
 

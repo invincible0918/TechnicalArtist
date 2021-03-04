@@ -13,8 +13,8 @@ setuptools.setup(
             'README.rst'
         )
     ).read(),
-    author='wen-long.mo@ubisoft.com',
-    author_email='wen-long.mo@ubisoft.com',
+    author='invincible0918@126.com',
+    author_email='invincible0918@126.com',
     packages=setuptools.find_packages(),
     license='MIT'
 )

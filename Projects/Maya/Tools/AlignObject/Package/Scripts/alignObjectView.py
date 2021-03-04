@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2020/06/03
-# @Company : UBISOFT SHANGHAI
+# @Company : INVINCIBLE STUDIO
 # @Author  : Sun Jing
 # @Email   : jing.sun4@ubisoft.com
 # @File    : alignObjectView.py
