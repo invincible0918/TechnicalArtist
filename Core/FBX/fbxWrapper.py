@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 7/19/2018
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : fbxWrapper.py
 
 try:
@@ -52,6 +52,7 @@ class FBXWrapper(object):
         else:
             self.__postInit()
             lNode = lScene.GetRootNode()
+            self.__iterAllAnimations(lNode, lSdkManager)
             self.__iterAllMeshes(lNode, lSdkManager)
 
     @property
@@ -61,6 +62,29 @@ class FBXWrapper(object):
     def __postInit(self):
         # key is mesh name, value is material array
         self.__meshMaterialDict = dict()
+
+    def __iterAllAnimations(self, lNode, pManager):
+        # lConverter = FbxAnimCurveFilterMatrixConverter(pManager)
+
+        if lNode:
+            for i in range(lNode.GetChildCount()):
+                lChildNode = lNode.GetChild(i)
+
+                self.__displayAnimation(lChildNode)
+                self.__iterAllAnimations(lChildNode, pManager)
+
+    def __displayAnimation(self, node):
+        if node.GetNodeAttribute():
+            lAttributeType = (node.GetNodeAttribute().GetAttributeType())
+
+            if lAttributeType == FbxNodeAttribute.eSkeleton:
+                pAnimation = node.GetNodeAttribute()
+
+                lNode = None
+                if pAnimation:
+                    lNode = pAnimation.GetNode()
+                    if lNode:
+                        print lNode.GetName(), lNode.ScalingMin, lNode.ScalingMax
 
     def __iterAllMeshes(self, lNode, pManager):
         lConverter = FbxGeometryConverter(pManager)

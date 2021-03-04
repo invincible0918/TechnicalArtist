@@ -1,14 +1,35 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/2/9
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : commonFunction.py
 
 import os
 import stat
 import shutil
+import hashlib
+
+
+def getHash(file):
+    f = open(file, 'rb')
+    line = f.readline()
+    hash = hashlib.md5()
+
+    while line:
+        hash.update(line)
+        line = f.readline()
+    f.close()
+    return hash.hexdigest()
+
+
+def isHashEqual(f1, f2):
+    if not os.path.exists(f1) or not os.path.exists(f2):
+        return False
+    str1 = getHash(f1)
+    str2 = getHash(f2)
+    return str1 == str2
 
 
 def msgBox(msg):
@@ -29,7 +50,7 @@ def createFolder(dir):
 
 
 # copy a whole dir textures 2 another dir
-def cpByDir(sourceDir, destDir, ext=None):
+def cpByDir(sourceDir, destDir, ext=None, force=False):
     print 'sourceDir: %s' % sourceDir
     print 'destDir: %s' % destDir
 
@@ -42,9 +63,14 @@ def cpByDir(sourceDir, destDir, ext=None):
                 dest = source.replace('\\', '/').replace(sourceDir.replace('\\', '/'), destDir.replace('\\', '/'))
                 if not os.path.exists(os.path.dirname(dest)):
                     os.makedirs(os.path.dirname(dest))
-                shutil.copy(source, dest)
-                print 'Copy from "%s" to "%s"' % (source, dest)
-                res.append(os.path.join(destDir, file))
+
+                if not isHashEqual(source, dest) or force:
+                    if os.path.exists(dest):
+                        # 0777 removes the read-only property of files on my system
+                        os.chmod(dest, 0777)
+                    shutil.copy(source, dest)
+                    print 'Copy from "%s" to "%s"' % (source, dest)
+                    res.append(os.path.join(destDir, file))
     return res
 
 

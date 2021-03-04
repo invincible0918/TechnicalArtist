@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/4/13
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : implement.py
 
 import inspect
@@ -15,3 +15,10 @@ def abstract():
         print trace
     raise NotImplementedError('must be implemented in subclass')
 
+
+class classproperty(object):
+    def __init__(self, f):
+        self.f = f
+
+    def __get__(self, obj, owner):
+        return self.f(owner)

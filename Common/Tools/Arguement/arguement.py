@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/11/27
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : arguement.py
 
 
 """
 arguement always like this:
---user --password --delete E:/Projects/MyProject000/FD/Ghost/app/res/master/models/tt0.txt,E:/Projects/MyProject000/FD/Ghost/app/res/master/models/tt1.txt --msg add test datas --port eamc-perforce.eamobile.ad.ea.com:1666 --branchPath E:/Projects/MyProject000/FD
+--user --password --delete E:/Projects/NFSEM/FD/Ghost/app/res/master/models/tt0.txt,E:/Projects/NFSEM/FD/Ghost/app/res/master/models/tt1.txt --msg add test datas --port eamc-perforce.eamobile.ad.ea.com:1666 --branchPath E:/Projects/NFSEM/FD
 use "--" to split key and value
 """
 

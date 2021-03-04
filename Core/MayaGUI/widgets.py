@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/4/28
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : widgets.py
 
 
@@ -34,6 +34,7 @@ if VERSION >= 2017:
 
     CheckBox = QCheckBox
     LineEdit = QLineEdit
+    Label = QLabel
 else:
     from PySide.QtGui import *
 
@@ -56,6 +57,7 @@ else:
 
     CheckBox = QCheckBox
     LineEdit = QLineEdit
+    Label = QLabel
 
 if VERSION >= 2017:
     from PySide2.QtCore import *

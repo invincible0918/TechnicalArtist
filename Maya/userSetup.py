@@ -31,11 +31,11 @@ if os.path.exists(configPath):
         # Begin to build environment
         di['DEBUGSCRIPT'] = DEBUGSCRIPT
         if di['DEBUGSCRIPT']:
-            imp.load_source('buildEnvironment', os.path.join(di['TATOOL'], r'Core/buildEnvironment.py'))
+            imp.load_source('buildMayaEnvironment', os.path.join(di['TATOOL'], r'Core/buildMayaEnvironment.py'))
         else:
-            imp.load_compiled('buildEnvironment', os.path.join(di['TATOOL'], r'Core/buildEnvironment.pyc'))
+            imp.load_compiled('buildMayaEnvironment', os.path.join(di['TATOOL'], r'Core/buildMayaEnvironment.pyc'))
 
-        import buildEnvironment
-        buildEnvironment.build(di)
+        import buildMayaEnvironment
+        buildMayaEnvironment.build(di)
 else:
     print 'can not get file %s!' % configPath

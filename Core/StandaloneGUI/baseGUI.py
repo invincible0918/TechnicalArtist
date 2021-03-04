@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/3/28
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : baseGUI.py
 
 
@@ -32,6 +32,8 @@ class BaseGUI(QtGui.QMainWindow):
 
     def show(self):
         self._ui.show()
+        q = QtCore.QEventLoop()
+        q.exec_()
 
     def close(self):
         self._ui.close()
@@ -49,6 +51,9 @@ class BaseGUI(QtGui.QMainWindow):
         :return:
         """
         pass
+
+    def _initAppIcon(self, iconPath):
+        self._ui.setWindowIcon(QtGui.QIcon(iconPath))
 
     def _bindMethod(self):
         """

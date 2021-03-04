@@ -1,0 +1,5 @@
+﻿  PluginMain.cpp
+e:\projects\ta\projects\blue\mayaplugins\motionpath\motionpath\include\KeyClipboard.h(58): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\ta\projects\blue\mayaplugins\motionpath\motionpath\include\MotionPathManager.h(74): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     Creating library Release\motionPath.lib and object Release\motionPath.exp
+  motionPath.vcxproj -> E:\Projects\TA\Projects\Blue\MayaPlugins\motionPath\motionPath\Release\motionPath.mll

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99a93f0d-6d6a-4719-9593-6d7d637ca634" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../dcc/maya/modules/msv_Animation/msv_Retargeting_Tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../externalPackages/Red9/core/AnimationBinder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="649" column="15" selection-start-line="597" selection-end-line="649" selection-end-column="15" />
+              <folding>
+                <element signature="e#1285#1309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../externalPackages/Red9/core/Red9_General.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="358" column="18" selection-start-line="358" selection-start-column="18" selection-end-line="358" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/api/OpenMaya.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699192">
+              <caret line="25896" column="8" selection-start-line="25896" selection-start-column="8" selection-end-line="25896" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/cmds/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39744">
+              <caret line="1472" column="4" selection-start-line="1472" selection-start-column="4" selection-end-line="1472" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tweaker</find>
+      <find>MsvRigComponentRibbonSurface</find>
+      <find>stretch visual</find>
+      <find>snowdrop tools</find>
+      <find>defin</find>
+      <find>setRotation</find>
+      <find>_bindMethod</find>
+      <find>copySkinWeights</find>
+      <find>check skin influence</find>
+      <find>shapeCreationBaseRotateRadiansZ</find>
+      <find>installer_base</find>
+      <find>generate_p4</find>
+      <find>createAPBind</find>
+      <find>addAttributeChangedCallback</find>
+      <find>registerEvents</find>
+      <find>getMetaNodes</find>
+      <find>leftBeakSkinJointChain</find>
+      <find>attributes</find>
+      <find>getDependNode</find>
+      <find>MCallbackIdWrapper</find>
+      <find>MCallbackId</find>
+      <find>beak_reflex_target</find>
+      <find>args</find>
+      <find>localspace</find>
+      <find>animation retarget</find>
+      <find>binder</find>
+      <find>with</find>
+      <find>bake_binder_data</find>
+      <find>with_</find>
+      <find>AnimationContext</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_getAllParents</replace>
+      <replace>_fnTransform</replace>
+      <replace>_object2World</replace>
+      <replace>GetElementFromMatrix</replace>
+      <replace>om</replace>
+      <replace>input_matrix</replace>
+      <replace>node_transform_matrix</replace>
+      <replace>transfer_elements</replace>
+      <replace>_widget</replace>
+      <replace>keyframe_data_widgets</replace>
+      <replace>createDummyBind</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\p4ws\wlm_AC617_blue\tools\dcc\blue\dcc\maya\system\studiolibrary</dir>
+      <dir>D:\p4ws\wlm_AC617_blue\tools\dcc\blue</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MathUtilities/regisiter.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MathUtilities/mathSin.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MathUtilities/mathNode.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MathUtilities/mathData.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/LegSetup/Package/Scripts/legSetupController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/Exporter/Package/Scripts/exporterView.py" />
+        <option value="$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/pose.py" />
+        <option value="$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/localSpaceTransform.py" />
+        <option value="$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/mutils/pose.py" />
+        <option value="$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/studiolibrarymaya/poseitem.py" />
+        <option value="$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/studiolibrary/resource/css/default.css" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MathUtilities/mathSpring.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/MayaScripts/InitScripts/initScripts.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ProceduralAnim/Package/Scripts/keyframeData.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ProceduralAnim/Package/Scripts/proceduralAnimController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ProceduralAnim/Package/Scripts/proceduralAnimView.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ProceduralAnim/Package/Scripts/proceduralAnimModel.py" />
+        <option value="$PROJECT_DIR$/Core/FBX/test.py" />
+        <option value="$PROJECT_DIR$/Core/FBX/fbxWrapper.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/AnimNameGenerator/Package/Scripts/animNameGeneratorModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/AnimNameGenerator/Package/Scripts/animNameGeneratorController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/AnimNameGenerator/Package/Scripts/animNameGeneratorView.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ValidationTool/Package/Scripts/Validation/validationAnimation.py" />
+        <option value="$PROJECT_DIR$/Core/installPackages.py" />
+        <option value="$PROJECT_DIR$/../../dcc/maya/core/msvAnimationExporter.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/Red9Test/Package/Scripts/red9TestModel.py" />
+        <option value="$PROJECT_DIR$/Core/buildMayaEnvironment.py" />
+        <option value="$PROJECT_DIR$/Core/installMayaPackage.cfg" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/RefreshBindFile/Package/Scripts/refreshBindFileModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateAPBind/Package/Scripts/createAPBindModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/MayaScripts/Menus/customMenu.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/AverageSkinWeight/Package/Scripts/averageSkinWeightModel.py" />
+        <option value="$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/mutils/localSpaceTransform.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/BatchRetarget/Package/Scripts/batchRetargetController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimView.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/main.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummtBindView.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/CreateDummyBindController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummyBindController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummyBindModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/ValidationTool/Package/Scripts/registerEvents.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/CopyVertexSkinweight/Package/Scripts/copyVertexSkinweightModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package/Scripts/simfkModel.py" />
+        <option value="$PROJECT_DIR$/Common/Tools/CommandPort/commandPort.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIModel.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIController.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIView.py" />
+        <option value="$PROJECT_DIR$/../../externalPackages/Red9/core/AnimationBinder.py" />
+        <option value="$PROJECT_DIR$/Projects/Blue/Tools/BatchRetarget/Package/Scripts/batchRetargetModel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1934" />
+    <option name="height" value="1167" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/AppData/Local/Temp/wlmo.20190628.1200.ma" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\p4ws\wlm_AC617_blue\tools\dcc\blue\externalExecutables\TA\Core" />
+      <recent name="E:\Projects\TA\Projects\Blue\Tools\RefreshBindFile\Package\Scripts" />
+      <recent name="D:\p4ws\wlm_AC617_blue\tools\dcc\blue\dcc\maya\system\studiolibrary\src\mutils" />
+      <recent name="D:\p4ws\wlm_AC617_blue\tools\dcc\blue\dcc\maya\system\studiolibrary\src\studiolibrarymaya" />
+      <recent name="E:\Projects\TA\Projects\Blue\Tools\GetElementFromMatrix" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main_simpleGUI">
+    <configuration name="MirrorAnim_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="copyVertexSkinweight_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/Blue/Tools/CopyVertexSkinweight/Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/Blue/Tools/CopyVertexSkinweight/Package/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_simpleGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simfk_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.MirrorAnim_main" />
+      <item itemvalue="Python.copyVertexSkinweight_main" />
+      <item itemvalue="Python.simfk_main" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main_simpleGUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_simpleGUI" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.simfk_main" />
+        <item itemvalue="Python.copyVertexSkinweight_main" />
+        <item itemvalue="Python.MirrorAnim_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\wlmo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a93f0d-6d6a-4719-9593-6d7d637ca634" name="Default Changelist" comment="" />
+      <created>1561606178210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561606178210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8256735" visible="true" weight="0.24762908" />
+      <window_info id="Structure" order="1" sideWeight="0.17432646" side_tool="true" weight="0.2028451" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4857745" weight="0.31255993" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49209693" weight="0.25886863" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5753425" visible="true" weight="0.4544583" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32981783" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5142255" side_tool="true" weight="0.18408437" />
+      <window_info anchor="bottom" id="MayaLog" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" weight="0.24448706" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7971549" weight="0.29913712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.11140725" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8256735" visible="true" weight="0.1106383" />
+      <window_info id="Structure" order="1" sideWeight="0.17432646" side_tool="true" weight="0.2028451" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4857745" weight="0.19846596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49209693" weight="0.29817834" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5753425" visible="true" weight="0.24878049" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32981783" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5142255" side_tool="true" weight="0.18408437" />
+      <window_info anchor="bottom" id="MayaLog" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" weight="0.24448706" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7971549" weight="0.29913712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.11140725" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../externalPackages/Red9/core/Red9_Meta.py</url>
+          <line>2351</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../dcc/maya/core/msvMeta.py</url>
+          <line>2821</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../_resources/installer/_pyinstaller_work/msv_tools_installer_2017/PYZ-00.toc" />
+    <entry file="file://$PROJECT_DIR$/../../_resources/installer/_pyinstaller_work/msv_tools_installer_2017/Analysis-00.toc" />
+    <entry file="file://$PROJECT_DIR$/../../_resources/installer/msv_tools_installer_2017.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummtBindView.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummyBindController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/Scripts/createDummyBindModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="e#199#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/Package/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CreateDummyBind/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/MirrorAnim/Package/Scripts/mirrorAnimModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/MayaPlugins/motionPath/motionPath/source/MotionPathManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/app/general/creaseSetEditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="908" column="49" selection-start-line="908" selection-start-column="49" selection-end-line="908" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/api/_OpenMaya_py2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="2215" column="11" lean-forward="true" selection-start-line="2215" selection-start-column="11" selection-end-line="2215" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CopyVertexSkinweight/Package/Scripts/copyVertexSkinweightModel.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/MayaScripts/InitScripts/initScripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="74" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="74" />
+          <folding>
+            <element signature="e#190#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/ValidationTool/Package/Scripts/registerEvents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="e#193#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/ValidationTool/Package/Scripts/Validation/validationRig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/ValidationTool/Package/Scripts/Validation/validationAnimation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/localSpaceTransform.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/transferobject.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/attribute.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/mutils/pose.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/ExternalTools/studiolibrary/src/studiolibrarymaya/poseitem.py" />
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/Simfk/Package/Scripts/simfkModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+          <folding>
+            <element signature="e#189#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/mutils/pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="563" column="16" selection-start-line="563" selection-end-line="564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/mutils/localSpaceTransform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../dcc/maya/system/studiolibrary/src/studiolibrarymaya/resource/ui/BaseSaveWidget.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="392" column="39" selection-start-line="392" selection-start-column="39" selection-end-line="392" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/CustomPose/Package/Scripts/customPoseModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/OpenMaya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16692" column="29" selection-start-line="16692" selection-start-column="29" selection-end-line="16692" selection-end-column="29" />
+          <folding>
+            <element signature="e#230129#231808#0" />
+            <element signature="e#230372#230376#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Tools/CommandPort/commandPort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/RagdollTool/Package/Scripts/ragdollToolModel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/RagdollTool/Package/Scripts/ragdollToolView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="66" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/GoARoundOnSlope/Package/Scripts/goARoundOnSlopeView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/GenerateHitBox/Package/Scripts/generateHitBoxModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/LegSetup/Package/Scripts/legSetupView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/GenerateHitBox/Package/Scripts/generateHitBoxController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/api/OpenMaya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699192">
+          <caret line="25896" column="8" selection-start-line="25896" selection-start-column="8" selection-end-line="25896" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Autodesk/Maya2017/devkit/devkitBase/devkit/other/pymel/extras/completion/py/maya/cmds/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39744">
+          <caret line="1472" column="4" selection-start-line="1472" selection-start-column="4" selection-end-line="1472" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#193#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/GenerateHitBox/Package/Scripts/generateHitBoxView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/SimpleGUI/Package/Scripts/simpleGUIView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#193#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../externalPackages/Red9/core/Red9_General.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="358" column="18" selection-start-line="358" selection-start-column="18" selection-end-line="358" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../externalPackages/Red9/core/AnimationBinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="649" column="15" selection-start-line="597" selection-end-line="649" selection-end-column="15" />
+          <folding>
+            <element signature="e#1285#1309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/Blue/Tools/BatchRetarget/Package/Scripts/batchRetargetModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="400" column="32" selection-start-line="400" selection-start-column="32" selection-end-line="400" selection-end-column="32" />
+          <folding>
+            <element signature="e#197#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../dcc/maya/modules/msv_Animation/msv_Retargeting_Tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 5/9/2018
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : initProjects.py
 
 
@@ -13,6 +13,10 @@ import os
 # it should be run after maya startup
 def initScripts(projects):
     scripts = []
+
+    scriptPath = os.path.join(os.environ['TATOOL'], r'Common/InitScripts')
+    if os.path.exists(scriptPath):
+        scripts.append(scriptPath)
 
     for project in projects:
         projectDir = os.path.basename(project)

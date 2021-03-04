@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2017/3/10
-# @Company :
+# @Company : UBISOFT SHANGHAI
 # @Author  : Mo Wenlong
-# @Email   : invincible0918@126.com
+# @Email   : wen-long.mo@ubisoft.com
 # @File    : commonMenu.py
 
 
 import os
 import sys
 import stat
-
+import time
 from maya import cmds as mc
 from maya import mel as mm
 
@@ -82,6 +82,50 @@ def __relativePath(*args):
     relativePath.run()
 
 
+def countFiles(root):
+    count = 0
+    for root, dirs, files in os.walk(root):
+        count += len(files)
+    return count
+
+
+def __afterInstall(*args):
+    count = args[0]
+    callback = args[1]
+
+    dest = None
+    for p in sys.path:
+        if p.endswith('maya/scripts'):
+            dest = os.path.join(p, 'animBot')
+
+    # if user choose to install, it will go here
+    if os.path.exists(dest):
+        while True:
+            _count = countFiles(dest.replace('\\', '/'))
+
+            if count != _count:
+                time.sleep(5)
+            else:
+                callback()
+                break
+    else:
+        # if user doesn't choose to install, then invoke callback directly
+        callback()
+
+
+def __installAnimBot(*args):
+    package_path = os.path.join(os.environ['TATOOL'], 'Common/ExternalTools/animBot/1.2.6/animBot')
+    if package_path not in sys.path:
+        sys.path.append(package_path)
+
+    animbot_config = os.path.join(os.environ['TATOOL'], 'Common/ExternalTools/animBot/1.2.6/config.json').replace('\\', '/')
+    if 'ANIMBOT_CONFIGJSONPATH' not in os.environ:
+        os.environ['ANIMBOT_CONFIGJSONPATH'] = animbot_config
+
+    from animBot._api.core import CORE as animbot_core
+    animbot_core.trigger.animBotMenu_toggle()
+
+
 def createMenu():
     mainWindow = mm.eval('$null = $gMainWindow')
     global COMMONMENU
@@ -97,6 +141,7 @@ def createMenu():
     mc.menuItem(l='Change 2 Meter', c=__change2Meter)
     mc.menuItem(l='Replace Node Name', c=__replaceNodeName)
     mc.menuItem(l='Change Absolute Path 2 Relative', c=__relativePath)
+    mc.menuItem(l='Install AnimBot', c=__installAnimBot)
     mc.setParent('..', menu=True)
 
     mc.menuItem(d=True)
@@ -106,5 +151,6 @@ def createMenu():
     mc.menuItem(l='Repair Maya Tool', c=__repairMayaTool)
     mc.menuItem(l='Update Python Packages', c=__updatePackages)
     mc.setParent('..', menu=True)
+
 
 createMenu()
